@@ -1,0 +1,21 @@
+<svg width="240" height="90" viewBox="0 0 240 90" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="greenGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#10b981;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#059669;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Icon Background with rounded corners -->
+  <rect x="20" y="28" width="64" height="64" rx="16" fill="url(#greenGrad)"/>
+  
+  <!-- Small highlight dot -->
+  <circle cx="72" cy="36" r="4" fill="rgba(255,255,255,0.4)"/>
+  
+  <!-- Medical Cross (+ symbol) -->
+  <rect x="48" y="45" width="8" height="30" rx="2" fill="white"/>
+  <rect x="36" y="57" width="32" height="8" rx="2" fill="white"/>
+  
+  <!-- GetWell Text -->
+  <text x="100" y="70" font-family="Arial, sans-serif" font-size="36" font-weight="700" fill="#374151">GetWell</text>
+</svg>
