@@ -13,7 +13,7 @@ import mongoose from 'mongoose'
 const app = express()
 const port = process.env.PORT || 4000
 
-mongoose.connect("mongodb://localhost:27017/healthcare_app")
+mongoose.connect(process.env.MONGODB_URI)
 
 .then(()=> console.log('MongoDB connected'))
 .catch((err) => console.error('MongoDB connection error:', err));
